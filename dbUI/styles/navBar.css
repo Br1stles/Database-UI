@@ -1,0 +1,82 @@
+<style type = "text/css">
+  
+body { margin: 0; }
+
+/* Top Locked Navigation Bar */
+ul.navTop {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 2px 2px 2px grey;
+}
+
+li.top {
+  float: left;
+}
+
+li.top a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.top a:hover:not(.active) {
+  background-color: #111;
+}
+
+li.last {
+  float:right;
+}
+
+li.top a.active {
+  background-color: #4CAF50;
+}
+
+/* Left Locked Navigation Bar */
+
+ul.navLeft {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 16px;
+  padding: 0;
+  width: 150px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 2px 2px 2px grey;
+}
+
+li.left {
+
+}
+
+li.left a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li.left:last-child {
+  border-bottom: none;
+}
+
+li.left a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+li.left a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+</style>

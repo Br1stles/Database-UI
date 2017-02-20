@@ -1,0 +1,23 @@
+body { margin: 0; }
+
+.stuff {
+	padding: 20px; 
+	margin-top: 30px; 
+  margin-left: 150px; 
+  height: 1500px;
+}
+
+table {
+  border-collapse: collapse;
+  max-width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
